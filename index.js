@@ -31,8 +31,10 @@
         var score = Math.round((choice/questionsArr.length)*100);
         alert("You have answered " + score + "% correct.");
     }
+
+    // Troubleshooting Having a hard time with this one
     // function runQuiz() {
-    //     var choice = 0
+    //     var choice = 0 // from the example... 
     //     for(var i = 0, i < questionsArr.length; i ++) {
     //         if(confirm(questionsArr[i].question)=== questionsArr[i].answer){
     //             choice++
